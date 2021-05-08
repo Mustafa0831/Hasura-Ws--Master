@@ -1,0 +1,33 @@
+{
+  "name": "@hasura-ws/hooks",
+  "version": "1.0.1-alpha.0",
+  "description": "React hooks for hasura-ws",
+  "type": "module",
+  "module": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kigiri/hasura-ws.git"
+  },
+  "keywords": [
+    "hasura",
+    "graphql",
+    "websocket"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "kigiri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kigiri/hasura-ws/issues"
+  },
+  "homepage": "https://github.com/kigiri/hasura-ws#readme",
+  "peerDependencies": {
+    "react": ">=16.8.2"
+  },
+  "gitHead": "54c8b8e3f84b32806a6014ec9bd12c4e5b9b1924",
+  "dependencies": {
+    "@hasura-ws/model": "^1.0.1-alpha.0",
+    "@hasura-ws/prepare": "^1.0.1-alpha.0"
+  }
+}
